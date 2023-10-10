@@ -1,0 +1,13 @@
+/* Hides obnoxiously bright vertical sidebar label of "Most Popular". */
+article div.duet--recirculation--list-breaker-standard > div.absolute {
+    display: none;
+}
+
+/* Hides obnoxiously bright color that shows on the background at the top & bottom of the page. Particularly useful for inverted browser themes. */
+/* 
+Alternate, more specific selector that only targets footer section:
+body > div section.duet--article--more--stories 
+*/
+.bg-franklin {
+    background-color: transparent;
+}
